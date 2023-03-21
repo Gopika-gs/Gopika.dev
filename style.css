@@ -57,6 +57,7 @@
 @media (max-width: 600px) {
     .waviy {
         font-size: 30px;
+        position: fixed;
 
     }
 }
