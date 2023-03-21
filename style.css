@@ -4,6 +4,10 @@
 
 }
 
+.top img {
+    width: 100%;
+}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -46,6 +50,14 @@
 
     20% {
         transform: translateY(-20px)
+    }
+}
+
+
+@media (max-width: 600px) {
+    .waviy {
+        font-size: 30px;
+
     }
 }
 
@@ -102,11 +114,19 @@ h1 {
     height: 5px;
 }
 
-canvas {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
+@media (max-width: 600px) {
+    canvas {
+        height: 200px;
+    }
+}
+
+.divider {
+    background-color: #fff;
+}
+
+.about-section {
+    background-color: #FFE6D8;
 }
 
 .asset-img {
@@ -115,12 +135,6 @@ canvas {
 
 .top-left {
     position: absolute;
-    top: 2px;
-    left: 16px;
-}
-
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
+    top: 0px;
+    left: 0px;
 }
