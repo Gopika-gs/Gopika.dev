@@ -6,8 +6,14 @@ body {
     text-align: center;
 }
 
+.top {
+    background-color: #360547;
+}
+
 .top img {
     width: 100%;
+    height: 100vh;
+    object-fit: contain;
 }
 
 .centered {
@@ -86,58 +92,10 @@ body {
     }
 }
 
-h1 {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    color: #080808;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.one h1 {
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-}
-
-.one h1:before {
-    width: 28px;
-    height: 5px;
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 3px;
-    left: 50%;
-    margin-left: -14px;
-    background-color: #360547;
-}
-
-.one h1:after {
-    width: 100px;
-    height: 1px;
-    display: block;
-    content: "";
-    position: relative;
-    margin-top: 25px;
-    left: 50%;
-    margin-left: -50px;
-    background-color: #360547;
-}
-
 .para {
     font-size: x-large;
 
 }
-
-.divider {
-    height: 5px;
-}
-
 
 @media (max-width: 600px) {
     canvas {
@@ -162,7 +120,6 @@ h1 {
     top: 0px;
     left: 0px;
 }
-
 
 .social-menu ul {
     position: relative;
