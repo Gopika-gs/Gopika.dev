@@ -1,5 +1,6 @@
 body {
-    background-color: #FFE6D8;
+    background-color: #360547;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 .container-fluid {
@@ -23,8 +24,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -34,11 +33,10 @@ body {
 .waviy {
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .waviy span {
-    font-family: 'Alfa Slab One', cursive;
     position: relative;
     display: inline-block;
     color: #fff;
@@ -62,29 +60,24 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .waviy {
-        font-size: 25px;
+        font-size: 20px;
         position: relative;
         margin: auto;
         text-align: center;
 
     }
-}
 
-@media (max-width: 900px) {
-    .waviy {
-        font-size: 15px;
-        position: relative;
-        margin: auto;
-        text-align: center;
-
+    .top img {
+        height: 55vh;
     }
+
 }
 
-@media (min-width: 400px) {
+@media only screen and (max-width: 900px) {
     .waviy {
-        font-size: 40px;
+        font-size: 20px;
         position: relative;
         margin: auto;
         text-align: center;
