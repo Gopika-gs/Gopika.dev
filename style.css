@@ -86,6 +86,13 @@ body {
         text-align: center;
 
     }
+
+    h3 {
+        font-size: 20px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 .para {
