@@ -297,3 +297,7 @@ export default class Vector {
     }
 }
 
+window.ityped.init(document.querySelector('.ityped'), {
+    strings: ["I'm a Full Stack developer!", "I'm a Freelancer"],
+    loop: true
+})

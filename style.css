@@ -139,7 +139,30 @@ body {
     color: #000;
 }
 
+.social-menu ul li .fas {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+h3 {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+
+}
+
 .social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li .fas:hover {
     color: #fff;
 }
 
