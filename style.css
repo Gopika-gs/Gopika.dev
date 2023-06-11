@@ -154,7 +154,6 @@ body {
 }
 
 h3 {
-    position: absolute;
     top: 100%;
     transform: translateY(-50%);
     margin: 0;
