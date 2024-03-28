@@ -48,7 +48,7 @@
 /* Variables f0c94a 
 -----------------------------------------------------------------*/
 :root {
-  --maincolor: #28e98c;
+  --maincolor: #cb00ff;
 }
 
 /* Typography
@@ -1698,7 +1698,7 @@ body.loaded {
 
 .fixed-menu .menu-links a.active,
 .fixed-menu .menu-social a.active {
-  background: #28e98c;
+  background: #fa00ff;
   color: #0c0c0c;
 }
 
@@ -1712,7 +1712,7 @@ body.loaded {
 .fixed-menu .menu-social a .text {
   font-size: 12px;
   font-weight: 500;
-  background: #28e98c;
+  background: #fa00ff;
   color: #0c0c0c;
   padding: 5px 10px;
   border-radius: 20px;
@@ -1804,7 +1804,7 @@ body.loaded {
 }
 
 .left-area .menu-links a.active {
-  background: #28e98c;
+  background: #fa00ff;
   color: #0c0c0c;
 }
 
@@ -1816,7 +1816,7 @@ body.loaded {
 .left-area .menu-links a .text {
   font-size: 12px;
   font-weight: 500;
-  background: #28e98c;
+  background: #fa00ff;
   color: #0c0c0c;
   padding: 5px 10px;
   border-radius: 20px;
@@ -1996,7 +1996,7 @@ body.loaded {
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background: #28e98c;
+  background: #ffffff;
   color: #0c0c0c;
   font-size: 20px;
 }
@@ -2542,7 +2542,7 @@ body.loaded {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #28e98c;
+  background: #fa00ff;
   z-index: 2;
 }
 
@@ -2593,7 +2593,7 @@ body.loaded {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #28e98c;
+  background: #fa00ff;
   z-index: 2;
 }
 
@@ -2998,10 +2998,8 @@ body.loaded {
 .hero .intro .box1 .tow-items .item2 .sub-item2 {
   width: 150px;
   height: 145px;
-  background-image: url(../imgs/header/ptrn2.png);
-  background-size: 200% 200%;
-  -webkit-animation: move 40s ease infinite alternate;
-  animation: move 40s ease infinite alternate;
+  background-image: url(../../images/static.gif);
+  background-size: 250%;
   border-radius: 50px 0 50px 50px;
   margin-top: 10px;
 }
@@ -3048,7 +3046,7 @@ body.loaded {
 .hero .intro .box2 .item3 {
   width: 150px;
   height: 145px;
-  background-image: url(../imgs/header/profile.jpg);
+  background-image: url(../../images/profile-cropped.jpg);
   background-size: cover;
   border-radius: 50px 50px 50px 0;
 }
@@ -3141,8 +3139,9 @@ body.loaded {
 
 .hero .content h1 .bord {
   padding: 0 10px;
-  background: #28e98c;
-  color: #0c0c0c;
+  background: rgb(250,0,255);
+  background: linear-gradient(118deg, rgba(250,0,255,1) 0%, rgba(3,0,253,1) 100%); 
+  color: #ffffff;
   font-weight: 600;
   font-size: 45px;
   border-radius: 40px;
@@ -3395,7 +3394,7 @@ body.loaded {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #28e98c;
+  background: #fa00ff;
   margin-right: 7px;
 }
 
@@ -3683,7 +3682,7 @@ body.loaded {
   font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
-  background: #28e98c;
+  background: #fa00ff;
   border-radius: 30px;
 }
 
@@ -3696,7 +3695,7 @@ body.loaded {
 
 .price .item .content .feat li i {
   font-size: 13px;
-  color: #28e98c;
+  color: #fa00ff;
   margin-right: 10px;
   padding-top: 3px;
 }
@@ -4360,6 +4359,7 @@ img.left {
 
 .icon-img-40 {
   width: 40px;
+  height: 40px;
 }
 
 .icon-img-50 {
